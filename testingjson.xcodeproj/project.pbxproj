@@ -14,6 +14,8 @@
 		B6A5448528073E1D000EFF70 /* testingjsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5448428073E1D000EFF70 /* testingjsonTests.swift */; };
 		B6A5448F28073E1D000EFF70 /* testingjsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5448E28073E1D000EFF70 /* testingjsonUITests.swift */; };
 		B6A5449128073E1D000EFF70 /* testingjsonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5449028073E1D000EFF70 /* testingjsonUITestsLaunchTests.swift */; };
+		B6A544A228075D76000EFF70 /* Submit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A544A128075D76000EFF70 /* Submit.swift */; };
+		B6A544A428075D7A000EFF70 /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A544A328075D7A000EFF70 /* New.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B6A5448A28073E1D000EFF70 /* testingjsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingjsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A5448E28073E1D000EFF70 /* testingjsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingjsonUITests.swift; sourceTree = "<group>"; };
 		B6A5449028073E1D000EFF70 /* testingjsonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingjsonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6A544A128075D76000EFF70 /* Submit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submit.swift; sourceTree = "<group>"; };
+		B6A544A328075D7A000EFF70 /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				B6A5447328073E1B000EFF70 /* testingjsonApp.swift */,
 				B6A5447528073E1B000EFF70 /* ContentView.swift */,
+				B6A544A128075D76000EFF70 /* Submit.swift */,
+				B6A544A328075D7A000EFF70 /* New.swift */,
 				B6A5447728073E1D000EFF70 /* Assets.xcassets */,
 				B6A5447928073E1D000EFF70 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A544A228075D76000EFF70 /* Submit.swift in Sources */,
 				B6A5447628073E1B000EFF70 /* ContentView.swift in Sources */,
+				B6A544A428075D7A000EFF70 /* New.swift in Sources */,
 				B6A5447428073E1B000EFF70 /* testingjsonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
